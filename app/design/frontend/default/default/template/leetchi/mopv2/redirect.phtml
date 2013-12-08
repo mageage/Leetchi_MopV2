@@ -1,0 +1,22 @@
+<div id="leetchi_mop"></div>
+
+<script
+    id="leetchi_group_mop"
+    type="text/javascript"
+    src="http://mop.leetchi.com/staging.js"
+
+    data-merchant-key="_srEfjXA4A_VhcjEntPtmQ"
+    data-amount=1000
+
+    data-locale="fr"
+    data-logo=1
+    data-tag="Anything you want to pass"
+    data-return-url="http://google.com"
+    data-callback-url="http://google.com">
+</script>
+<script type="text/javascript">
+    document.observe("dom:loaded", function() {
+        var lll = document.getElementsByClassName("leetchi_mop_form");
+        lll[0].submit();
+    });
+</script>

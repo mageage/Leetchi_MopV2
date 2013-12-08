@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <mopv2_leetchi_redirect>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+        </reference>
+        <reference name="root">
+            <block as="content" type="leetchi_mopv2/redirect" name="redirectForm"
+                   template="leetchi/mopv2/redirect.phtml" />
+        </reference>
+    </mopv2_leetchi_redirect>
+    <mopv2_leetchi_cancel>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+        </reference>
+        <reference name="root">
+            <block as="content" type="leetchi_mopv2/cancel" name="cancelPage"
+                   template="leetchi/mopv2/cancel.phtml" />
+        </reference>
+    </mopv2_leetchi_cancel>
+</layout>
